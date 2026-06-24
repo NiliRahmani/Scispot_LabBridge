@@ -1,0 +1,10 @@
+pandas>=2.2,<4
+numpy>=1.26
+rapidfuzz>=3.6
+python-dateutil>=2.9
+openpyxl>=3.1
+pytest>=8.0
+
+# UI (Phase 3). altair ships with streamlit and powers the plate heatmap.
+streamlit>=1.38
+altair>=5.0

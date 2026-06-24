@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# Pipeline outputs (regenerated on every run)
+labbridge/out/
+
+# Node / recording tooling (not part of the app)
+node_modules/
+package.json
+package-lock.json
+record.js
+videos/
+
+# Media (host the video on YouTube/Loom instead of committing it)
+*.mp4
+*.webm
+
+# Editor / tooling
+.claude/
+.vscode/
+.idea/
+.DS_Store

@@ -1,0 +1,57 @@
+[
+  {
+    "well": "E3",
+    "type": "CONTROL_FAIL",
+    "detail": "blank reads high"
+  },
+  {
+    "well": "B4",
+    "type": "REPLICATE_CV_HIGH"
+  },
+  {
+    "well": "H4",
+    "type": "EMBEDDED_UNIT"
+  },
+  {
+    "well": "D5",
+    "type": "MISSING_VALUE"
+  },
+  {
+    "well": "H5",
+    "type": "EMBEDDED_UNIT"
+  },
+  {
+    "well": "A6",
+    "type": "DUPLICATE_WELL"
+  },
+  {
+    "well": "G6",
+    "type": "NEGATIVE_VALUE"
+  },
+  {
+    "well": "B7",
+    "type": "SATURATED_OR_OVERFLOW"
+  },
+  {
+    "well": "E8",
+    "type": "UNIT_NORMALIZED",
+    "from": "uM"
+  },
+  {
+    "well": "E9",
+    "type": "UNIT_NORMALIZED",
+    "from": "uM"
+  },
+  {
+    "well": "F9",
+    "type": "MISSING_VALUE"
+  },
+  {
+    "well": "C10",
+    "type": "DECIMAL_NORMALIZED"
+  },
+  {
+    "well": "D10",
+    "type": "DECIMAL_NORMALIZED"
+  }
+]
