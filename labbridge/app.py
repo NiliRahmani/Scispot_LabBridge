@@ -12,12 +12,21 @@ Run:
 from __future__ import annotations
 
 import io
+import sys
 import tempfile
 from pathlib import Path
 
 import altair as alt
 import pandas as pd
 import streamlit as st
+
+# Ensure the repository root (the parent of the ``labbridge`` package) is on
+# ``sys.path``. ``streamlit run labbridge/app.py`` puts only the script's own
+# directory on the path, so ``import labbridge.core`` would otherwise fail on
+# Streamlit Community Cloud while still working from the repo root locally.
+_REPO_ROOT = str(Path(__file__).resolve().parent.parent)
+if _REPO_ROOT not in sys.path:
+    sys.path.insert(0, _REPO_ROOT)
 
 from labbridge.core import parsers, mapping, qc_intel
 from labbridge.core.audit import summary_to_markdown
